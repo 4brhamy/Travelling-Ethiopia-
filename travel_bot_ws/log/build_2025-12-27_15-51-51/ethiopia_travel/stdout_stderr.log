@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/ethiopia_travel/ethiopia_travel.egg-info
+writing ../../build/ethiopia_travel/ethiopia_travel.egg-info/PKG-INFO
+writing dependency_links to ../../build/ethiopia_travel/ethiopia_travel.egg-info/dependency_links.txt
+writing entry points to ../../build/ethiopia_travel/ethiopia_travel.egg-info/entry_points.txt
+writing requirements to ../../build/ethiopia_travel/ethiopia_travel.egg-info/requires.txt
+writing top-level names to ../../build/ethiopia_travel/ethiopia_travel.egg-info/top_level.txt
+writing manifest file '../../build/ethiopia_travel/ethiopia_travel.egg-info/SOURCES.txt'
+reading manifest file '../../build/ethiopia_travel/ethiopia_travel.egg-info/SOURCES.txt'
+writing manifest file '../../build/ethiopia_travel/ethiopia_travel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abrham/travel_bot_ws/build/ethiopia_travel/build
+creating /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib
+creating /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib/ethiopia_travel
+copying ethiopia_travel/__init__.py -> /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib/ethiopia_travel
+copying ethiopia_travel/navigation.py -> /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib/ethiopia_travel
+running install
+running install_lib
+creating /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel
+copying /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib/ethiopia_travel/__init__.py -> /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel
+copying /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib/ethiopia_travel/navigation.py -> /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel
+byte-compiling /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel/navigation.py to navigation.cpython-310.pyc
+running install_data
+creating /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ament_index
+creating /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ament_index/resource_index
+creating /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ament_index/resource_index/packages
+copying resource/ethiopia_travel -> /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ament_index/resource_index/packages
+copying package.xml -> /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ethiopia_travel
+creating /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ethiopia_travel/launch
+copying launch/travel_bot.launch.py -> /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ethiopia_travel/launch
+creating /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ethiopia_travel/urdf
+copying urdf/travel_bot.urdf -> /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ethiopia_travel/urdf
+creating /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ethiopia_travel/worlds
+copying worlds/ethiopia.world -> /home/abrham/travel_bot_ws/install/ethiopia_travel/share/ethiopia_travel/worlds
+running install_egg_info
+Copying ../../build/ethiopia_travel/ethiopia_travel.egg-info to /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigation script to /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/ethiopia_travel
+writing list of installed files to '/home/abrham/travel_bot_ws/build/ethiopia_travel/install.log'

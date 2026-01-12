@@ -1,0 +1,582 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="ethiopia_full_world">
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+
+    <model name="Addis_Ababa">
+      <pose>0 0 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>0 0 1 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Debre_Birhan">
+      <pose>2 5 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Ambo">
+      <pose>-4 1 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Adama">
+      <pose>4 -2 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Nekemte">
+      <pose>-8 2 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Gimbi">
+      <pose>-11 2 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Dembi_Dollo">
+      <pose>-14 1 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Gambella">
+      <pose>-15 0 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Wolkite">
+      <pose>-4 -2 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Jimma">
+      <pose>-6 -5 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Bedelle">
+      <pose>-8 -3 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Gore">
+      <pose>-10 -4 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Tepi">
+      <pose>-12 -6 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Mezan_Teferi">
+      <pose>-12 -8 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Bonga">
+      <pose>-10 -7 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Dawro">
+      <pose>-7 -9 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Wolaita_Sodo">
+      <pose>-4 -9 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Arba_Minch">
+      <pose>-4 -12 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Buta_Jirra">
+      <pose>0 -4 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Batu">
+      <pose>2 -4 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Worabe">
+      <pose>-2 -6 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Hossana">
+      <pose>-2 -8 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Shashemene">
+      <pose>0 -9 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Hawassa">
+      <pose>0 -11 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Dilla">
+      <pose>0 -13 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Assella">
+      <pose>5 -5 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Assasa">
+      <pose>5 -8 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Dodolla">
+      <pose>4 -10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Bale">
+      <pose>6 -10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Goba">
+      <pose>8 -9 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Sof_Oumer">
+      <pose>10 -9 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Matahara">
+      <pose>6 -2 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Awash">
+      <pose>8 -1 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Chiro">
+      <pose>10 0 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Dire_Dawa">
+      <pose>12 1 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Harar">
+      <pose>13 1 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Babile">
+      <pose>14 1 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Jigjiga">
+      <pose>16 1 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Dega_Habur">
+      <pose>16 -3 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Kebri_Dehar">
+      <pose>18 -6 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+    <model name="Gode">
+      <pose>18 -9 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+          <material><ambient>1 0 0 1</ambient></material>
+        </visual>
+        <collision name="collision">
+          <geometry><cylinder radius="0.5" length="1.0"/></geometry>
+        </collision>
+      </link>
+    </model>
+    
+  </world>
+</sdf>

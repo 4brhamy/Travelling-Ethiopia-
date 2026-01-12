@@ -1,0 +1,24 @@
+[0.837s] Invoking command in '/home/abrham/travel_bot_ws/src/ethiopia_travel': PYTHONPATH=/home/abrham/travel_bot_ws/build/ethiopia_travel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ethiopia_travel build --build-base /home/abrham/travel_bot_ws/build/ethiopia_travel/build install --record /home/abrham/travel_bot_ws/build/ethiopia_travel/install.log --single-version-externally-managed install_data
+[1.158s] running egg_info
+[1.158s] writing ../../build/ethiopia_travel/ethiopia_travel.egg-info/PKG-INFO
+[1.159s] writing dependency_links to ../../build/ethiopia_travel/ethiopia_travel.egg-info/dependency_links.txt
+[1.159s] writing entry points to ../../build/ethiopia_travel/ethiopia_travel.egg-info/entry_points.txt
+[1.159s] writing requirements to ../../build/ethiopia_travel/ethiopia_travel.egg-info/requires.txt
+[1.159s] writing top-level names to ../../build/ethiopia_travel/ethiopia_travel.egg-info/top_level.txt
+[1.160s] reading manifest file '../../build/ethiopia_travel/ethiopia_travel.egg-info/SOURCES.txt'
+[1.162s] writing manifest file '../../build/ethiopia_travel/ethiopia_travel.egg-info/SOURCES.txt'
+[1.163s] running build
+[1.163s] running build_py
+[1.163s] copying ethiopia_travel/navigation.py -> /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib/ethiopia_travel
+[1.163s] running install
+[1.163s] running install_lib
+[1.164s] copying /home/abrham/travel_bot_ws/build/ethiopia_travel/build/lib/ethiopia_travel/navigation.py -> /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel
+[1.165s] byte-compiling /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel/navigation.py to navigation.cpython-310.pyc
+[1.167s] running install_data
+[1.167s] running install_egg_info
+[1.169s] removing '/home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel-0.0.0-py3.10.egg-info' (and everything under it)
+[1.170s] Copying ../../build/ethiopia_travel/ethiopia_travel.egg-info to /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages/ethiopia_travel-0.0.0-py3.10.egg-info
+[1.171s] running install_scripts
+[1.195s] Installing navigation script to /home/abrham/travel_bot_ws/install/ethiopia_travel/lib/ethiopia_travel
+[1.197s] writing list of installed files to '/home/abrham/travel_bot_ws/build/ethiopia_travel/install.log'
+[1.237s] Invoked command in '/home/abrham/travel_bot_ws/src/ethiopia_travel' returned '0': PYTHONPATH=/home/abrham/travel_bot_ws/build/ethiopia_travel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abrham/travel_bot_ws/install/ethiopia_travel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ethiopia_travel build --build-base /home/abrham/travel_bot_ws/build/ethiopia_travel/build install --record /home/abrham/travel_bot_ws/build/ethiopia_travel/install.log --single-version-externally-managed install_data
